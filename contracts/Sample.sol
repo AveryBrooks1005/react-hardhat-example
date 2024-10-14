@@ -7,7 +7,7 @@ contract Sample {
     string private message;
 
     constructor(string memory _message) {
-        console.log("Deploying a Sample with message:", _message);
+        console.log("Deploying a Sample with a message:", _message);
         message = _message;
     }
 
